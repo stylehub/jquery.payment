@@ -11,7 +11,7 @@ defaultFormat = /(\d{1,4})/g
 cards = [
   {
       type: 'maestro'
-      pattern: /^(5018|5020|5038|6304|6759|676[1-3])/
+      pattern: /^(50|6304|6333|6390|67)/
       format: defaultFormat
       length: [12..19]
       cvcLength: [3]
